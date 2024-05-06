@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.topbar-header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 56px);
+}
+.main-content{
+    position: fixed;
+    right: 0;
+    top: 56px;
+    width: calc(100% - 56px);
+}
+
+
+.sidebar-icon:hover{
+background-color: #1c4c81 !important;
+}
+
+.social-links li span{
+    width: 20px;
+    height: 20px;
+}
+
+
+.social-links li .facebook {
+    background-color: #3b5998;
+    color: #fff !important;
+    border-color: #3b5998 !important;
+}
+
+.social-links li .twitter {
+    background-color: #55acee;
+    color: #fff !important;
+    border-color: #55acee !important;
+}
+
+.social-links li .linkedin {
+    background-color: #007bb6;
+    color: #fff !important;
+    border-color: #007bb6 !important;
+}
+
+.social-links li .github {
+    background-color: #181616;
+    color: #fff !important;
+    border-color: #181616 !important;
+}
+
+.social-links li .xing {
+    background-color: #007072;
+    color: #fff !important;
+    border-color: #007072 !important;
+}
